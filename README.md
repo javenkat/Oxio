@@ -6,7 +6,7 @@ npm install
 3. Run app
 npm start
 
-# Architectutal overview
+# Architectural overview
 1. Three pages are implemented one each for the Table, the Chart and the input form
 2. React's Context API is used for managing state across the app
 3. All of these components are wrapped under the DataProvider, so that they have access to the state
